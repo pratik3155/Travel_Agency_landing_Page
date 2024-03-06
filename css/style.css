@@ -1,0 +1,245 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+ --maincolor : #DDDDDD;
+ --span : #ccb78f;
+ --footer : #242423;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family:"Poppins", sans-serif;;
+}
+.body{
+    background-color: var(--maincolor);
+}
+ul , li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button,
+input {
+  background-color: transparent;
+}
+.cta-2  h1{
+    font-weight: 700;
+}
+.cta-2 .stat h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.social li a {
+    font-size: 12px;
+}
+.logo{
+    margin: 50px auto 0px;
+    }
+    .logo a{
+        padding: 0px 15px;
+        font-size: 50px;
+        font-weight: 600;
+        color: var(--span);
+        outline: 2px solid;
+        outline-offset: -15px;
+    }
+.about ,.class1 ,.combine ,.img4 , .img5{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    background-image: url(../Images/illustrations/bg_2.jpg);
+}
+.about h2 span{
+    color: var(--span);
+}
+.about h2 , .about h2 span{
+    font-size: 25px;
+}
+.info div img{
+    width: 45%;
+    height: 45%;
+}
+.combine{
+    top: 500px;
+}
+.img1{
+    background-image: url(../Images/illustrations/work-1.jpg);
+    top: 40px;
+}
+.img2{
+    background-image: url(../Images/illustrations/work-2.jpg);
+    top: 200px;
+}
+.img3{
+    background-image: url(../Images/illustrations/work-3.jpg);
+    top: 350px;
+}
+.img6{
+    background-image: url(../Images/illustrations/work-6.jpg);
+    top: 1500px;
+}
+.img4{
+    background-image: url(../Images/illustrations/work-4.jpg);
+}
+.img5{
+    background-image: url(../Images/illustrations/work-5.jpg);
+    top: 200px;
+}
+.minus{
+    top: -20px;
+}
+.minus h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.view{
+    top: 1600px;
+}
+.footer{
+    top: 1700px;
+    background-color: #242423;
+}
+.design div{
+  width: 33.33%;
+  height: 15vh;
+}
+.archieves ul li a , .query p{
+ color: var(--span);
+}
+@media (min-width: 768px){
+.cta-2 h1{
+    font-size: 75px;
+}
+.cta-2 .poem{
+    width: 50%;
+}
+.about h2 {
+    font-size: 60px;
+    margin-left: 30px;
+}
+.about h2 span {
+    font-size: 60px;
+}
+.info div img {
+    width: 70%;
+    height: 28%;
+}
+.minus h2{
+    font-size: 70px;
+}
+.minus {
+    top: -67px;
+}
+.img5{
+    top: 0;
+}
+.combine .minus h2{
+    font-size: 50px;
+}
+.combine .minus {
+    width: 50%;
+}
+.combine .row div {
+   width: 48%;
+}
+.img6{
+    top: 700px;
+}
+.view{
+    top:830px
+}
+.view h2{
+    font-size: 60px;
+}
+.footer{
+    top: 880px;
+}
+.footer section{
+    width: 75%;
+}
+.insta h3,.ques h3,.arch h3 ,.links h3{
+    font-size: 20px;
+}
+.design{
+    width: 80%;
+}
+.arch div ul li{
+    font-size: 15px;
+}
+.archieves ul li a{
+    font-size: 15px;
+}
+.ques p{
+    font-size: 13px;
+}
+.ques{
+    margin-left: 9px;
+}
+}
+@media (min-width: 992px){
+    .cta-1 menu li{
+       font-size: 30px;
+       line-height: 1.6;
+    }
+    .cta-1 menu li:hover{
+      border-bottom: 5px solid var(--span);
+    }
+    .cta-1 menu li span{
+        color: var(--span);
+       font-size: 30px;
+       border-bottom: 5px solid var(--span);
+    }
+    .cta-1 menu li span:hover{
+       border-bottom: 0px solid var(--span);
+    }
+    .cta-1 menu{
+        padding: 60px 0px 0px 35px;
+    }
+    .cta h1{
+        font-size: 135px;
+    }
+
+    .about h2{
+        font-size: 100px;
+        margin-left: 70px;
+        margin-top: -60px;
+    }
+    .about h2 span{
+        font-size: 100px;
+    }
+    .info div img{
+        width: 30%;
+        height: 35%;
+    }
+    .minus{
+        top: -80px;
+    }
+    .minus h2{
+        font-size: 140px;
+        transition: all 0.5s linear ;
+    }
+    .minus h2:hover{
+       color: #ffffff;
+    }
+    .combine .minus h2{
+        font-size: 100px;
+    }
+    .view h2{
+        font-size: 120px;
+    }
+    .view h2:hover{
+        color: var(--span);
+    }
+}

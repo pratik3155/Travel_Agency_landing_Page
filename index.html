@@ -1,207 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project - 1 Bootstrap</title>
-    <link rel="icon" href="Images/illustrations/living-room.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Website</title>
+  <link rel="icon" href="Images/illustrations/icon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="body">
- <section class="container-fluid cta">
-    <div class="row">
-        <div class="col-0 col-md-4 col-lg-2 d-none d-lg-block  cta-1">
-           <div class="position-fixed z-3"> 
-        <menu>
-            <li><span class="home-span">Home</span></li>
-            <li>Project</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </menu>
-        <ul class="social">
-            <li><a href="#"class="text-dark ">Facebook</a></li>
-            <li><a href="#"class="text-dark ">Twitter</a></li>
-            <li><a href="#"class="text-dark ">Instagram</a></li>
-        </ul>
-        <div class="logo w-75">
-           <a href="#">KD</a>
+<body>
+  <section class="container-fluid cta mb-5">
+    <div class="d-flex navbar pt-4 pb-5">
+      <span class="text-light h1 mt-4 headfont fw-bold ">Hepta</span>
+      <div>
+        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#myOffCanvas">
+          <a href="#"><i class="fa-solid fa-bars fs-1 text-light pt-2"></i></a>
+        </button>
+      </div>
+      <div id="myOffCanvas" class="offcanvas offcanvas-start w-100">
+        <!--offcanvas body-->
+        <div class="offcanvas-body">
+          <button class="btn float-end fs-2 text-black" data-bs-dismiss="offcanvas"><i
+              class="fa-solid fa-x fs-1 fw-light"></i></button>
+          <ul class="nav flex-column text-center mt-5 pt-5">
+            <li class="nav-item">
+              <a href="#" class="nav-link fs-1 headfont " style="color: #65C0BA;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link fs-1 headfont text-dark">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link headfont fs-1 text-dark">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link headfont fs-1 text-dark">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link headfont fs-1 text-dark">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link headfont fs-1 text-dark">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
+    <div class="container cta-content mt-5 mx-auto text-center pt-5 pb-5">
+      <h1 class=" headfont text-light mt-5 display-2 fw-bold">Travel & Tours</h1>
+      <p class="text-light mt-4 h2 fw-light">A free template by <a href="#" class="h2 fw-light colorlib-a">
+          Colorlib.</a> Download and share!</p>
+      <button class="btn border border-2  mt-5 pt-3 pb-3 ps-5 pe-5 lh-lg colorlib-btn">V I S I T ____ C O L O R L I
+        B</button>
+    </div>
+  </section>
+  <section class="row container mx-auto mt-5 pt-5 mb-5 pb-5">
+    <div class="col-12 col-lg-6 mt-5 ps-0 pe-0 ">
+      <img src="Images/illustrations/img_1_long.jpg" class="ms-lg-5 img-1-1" alt="img">
+    </div>
+    <div class="col-12 col-lg-6 mt-5 pt-lg-5 ">
+      <div class="pt-lg-5">
+        <h2 class="headfont pt-lg-5 font32">Welcome To Our Website</h2>
+        <p class=" pt-lg-4 fw-lighter text-secondary lh-lg font18">Far far away, behind the word mountains, far from the
+          countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
+          the coast of the Semantics, a large language ocean.
+        <p class="pt-lg-3 fw-lighter text-secondary lh-lg-lg pb-lg-5 font18"> A small river named Duden flows by their
+          place and supplies it with the necessary regelialia.</p>
+        </p>
+        <a href="https://vimeo.com/channels/staffpicks/93951774" class="pt-5 play-a">
+          <div class="d-inline-flex justify-content-center rounded-circle  p-3 play-div">
+            <i class="fa-solid fa-play play-icon"></i>
+          </div>
+          <span class="maincolor ps-2 fw-bold fs-5 text-uppercase">Watch the video</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <section class="mt-5 pt-5">
+    <div class="container text-center exp">
+      <h3 class="h1 headfont font32">Experience Once In Your Life Time</h3>
+      <p class="text-secondary lh-lg">Far far away, behind the word mountains, far from the countries Vokalia and
+        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large language ocean.</p>
+    </div>
+    <div class="row container mx-auto  row-gap-3 mt-5 pt-4 exp-img">
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/foodgood.png" alt="img" class="h-auto d-block mx-auto">
+        <h3 class="headfont mt-2 font32 fw-light">Good Foods</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto  fw-light">Far far away, behind the word mountains, far
+          from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/earth.png" alt="img" class=" h-auto d-block mx-auto">
+        <h3 class="headfont mt-3 font32 fw-light">Travel Anywhere</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto  fw-light">Far far away, behind the word mountains, far
+          from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/airplane.png" alt="img" class=" h-auto d-block mx-auto">
+        <h3 class="headfont mt-3 font32 fw-light">Airplane</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto fw-light">Far far away, behind the word mountains, far from
+          the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/beach.png" alt="img" class=" h-auto d-block mx-auto">
+        <h3 class="headfont mt-3 font32 fw-light">Beach Resort</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto  fw-light">Far far away, behind the word mountains, far
+          from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/montain.png" alt="img" class=" h-auto d-block mx-auto">
+        <h3 class="headfont mt-1 font32 fw-light">Mountain Climbing</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto  fw-light">Far far away, behind the word mountains, far
+          from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 text-center ps-0 pe-0">
+        <img src="Images/illustrations/airballon.png" alt="img" class="h-auto d-block mx-auto">
+        <h3 class="headfont mt-3 font32 fw-light">Hot Air Ballon</h3>
+        <p class="font18 text-secondary lh-base w-75 mx-auto  fw-light">Far far away, behind the word mountains, far
+          from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+    </div>
+  </section>
+  <section class="mt-5 pt-5 mb-5 pb-5">
+    <div class="container text-center exp">
+      <h3 class="h1 headfont display-3">International Tour Management.</h3>
+      <p class="text-secondary lh-lg pt-2 pb-5">Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large language ocean.</p>
+    </div>
+  </section>
+  <section class="container mt-5 mb-5    slidesec">
+    <section class="carousel slide z-3" id="myCarousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" class="active rounded-circle"
+          style="height: 10px; width: 10px;"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="Images/illustrations/slider-1.jpg" alt="" class="d-block  h-auto mx-auto">
         </div>
-           <div class="col-12 col-md-2 col-lg-10 mt-4 mb-5 d-block d-lg-none  menu-btn" >
-   <button type="button" class="position-fixed  z-3" data-bs-toggle="offcanvas" data-bs-target="#myOffCanvas">
-    <i class="fa-solid fa-bars fs-1" style="color: #000000;"></i>
+        <div class="carousel-item">
+          <img src="Images/illustrations/slider-2.jpg" alt="" class="d-block  h-auto mx-auto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/illustrations/slider-3.jpg" alt="" class="d-block  h-auto mx-auto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/illustrations/slider-4.jpg" alt="" class="d-block  h-auto mx-auto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/illustrations/slider-5.jpg" alt="" class="d-block  h-auto mx-auto">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/illustrations/slider-6.jpg" alt="" class="d-block  h-auto mx-auto">
+        </div>
+      </div>
+      <button type="button" class="carousel-control-prev d-none d-lg-block" data-bs-target="#myCarousel"
+        data-bs-slide="prev">
+        <i class="fa-solid fa-chevron-left fs-1 text-dark "></i>
       </button>
-    </div>
-    <div id="myOffCanvas" class="offcanvas offcanvas-start w-75  ">
-      <div class="offcanvas-body">
-        <button class="btn-close float-end" data-bs-dismiss="offcanvas"></button>
-        <ul class="nav flex-column  w-50 ">
-          <li class="nav-item" style="border-bottom: 2px solid var(--span);"><a class="nav-link fs-1 " href="" style="color: var(--span);">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark fs-1 " href="">About</a></li>
-          <li class="nav-item"><a class="nav-link text-dark fs-1 " href="">Education</a></li>
-          <li class="nav-item"><a class="nav-link text-dark fs-1 " href="">Skills</a></li>
-          <li class="nav-item"><a class="nav-link text-dark fs-1 " href="">Projects</a></li>
-          <li class="nav-item"><a class="nav-link text-dark fs-1 " href="">Contact</a></li>
-        </ul>
-        <ul class="social ps-3 ">
-            <li><a href="#"class="text-dark h6">Facebook</a></li>
-            <li><a href="#"class="text-dark h6">Twitter</a></li>
-            <li><a href="#"class="text-dark h6">Instagram</a></li>
-        </ul>
-        <div class="logo w-75">
-            <a href="#">KD</a>
-         </div>
+      <button type="button" class="carousel-control-next d-none d-lg-block" data-bs-target="#myCarousel"
+        data-bs-slide="next">
+        <i class="fa-solid fa-chevron-right fs-1 text-dark "></i>
+      </button>
+    </section>
+  </section>
+  <section class="deso pt-5 pb-5">
+    <div class="mt-5 pt-5">
+      <div class="container text-center exp mt-5 pt-5">
+        <h3 class="h1 headfont display-2 mt-5 pt-5">Recent Blog Post</h3>
+        <p class="text-light lh-lg pt-2 pb-5 fw-light">Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+          of the Semantics, a large language ocean.</p>
       </div>
     </div>
-        <div class="col-12 col-md-10 col-lg-10  cta-2">
-          <h1 class=" mt-2 mb-4">Architects with Need a different design</h1>
-          <p class="lh-lg mb-5 poem ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          <div class="row mb-5 pb-5 stat">
-            <div class="col-12 col-md-3 col-lg-3">
-                <h2>18</h2>
-                <p>Years Of Experience</p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <h2>351</h2>
-                <p>Happy Clients</p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <h2>564</h2>
-                <p>Finished Projects</p>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3">
-                <h2>300</h2>
-                <p>Working days</p>
-            </div>
+    <div class="row container mt-5 mx-auto ps-0 pe-0 blog-post pb-5">
+      <div class="col-12 col-md-6 col-lg pt-5">
+        <div>
+          <img src="Images/illustrations/img_1.jpg" alt="img">
         </div>
-        <div class="about mt-5">
-            <h2 class="text-light text-uppercase fw-bold position-absolute">About <span>KD</span> ARCHITECTURE</h2>
+        <div class="bg-light ps-4 pb-3">
+          <p class="pt-4 fs-5 text-secondary fw-lighter mb-0">FEBRUARY 26, 2018</p>
+          <a href="#">
+            <h3 class="headfont lh-base places">45 Best PLaces To <br /> UnWind</h3>
+          </a>
+          <p class="fs-5 text-secondary fw-light lh-lg pb-3">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
-        <div class="row info mb-5 mt-5 pt-5 pb-5">
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="Images/illustrations/log.png" alt="img">
-                <h2 class="ps-3 text-uppercase mt-3">Perfectly Design</h2>
-                <p class="ps-3 mt-3 lh-lg">Even all the Powerful Pointing has no control about the blind texts it is an almost unorthographic</p>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="Images/illustrations/log2.png" alt="img">
-                <h2 class="ps-3 text-uppercase mt-3">Carefully Planned</h2>
-                <p class="ps-3 mt-3 lh-lg">Even all the Powerful Pointing has no control about the blind texts it is an almost unorthographic</p>
-            </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <img src="Images/illustrations/log3.png" alt="img">
-                <h2 class="ps-3 text-uppercase mt-3">Smartly Execute</h2>
-                <p class="ps-3 mt-3 lh-lg mb-5">Even all the Powerful Pointing has no control about the blind texts it is an almost unorthographic</p>
-            </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg pt-5">
+        <div>
+          <img src="Images/illustrations/img_2.jpg" alt="img">
         </div>
+        <div class="bg-light ps-4 pb-3">
+          <p class="pt-4 fs-5 text-secondary fw-lighter  mb-0">FEBRUARY 26, 2018</p>
+          <a href="#">
+            <h3 class="headfont lh-base places">45 Best PLaces To <br /> UnWind</h3>
+          </a>
+          <p class="fs-5 text-secondary fw-light lh-lg pb-3">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
-    </div>
- </section>
-<section class="container-fluid main pe-0 ps-0">
-    <div class="container-fluid mb-5 d-flex position-relative justify-content-center  class1 img1">
-           <div class="minus  position-absolute w-75 ">
-            <h2 class="text-uppercase text-center">Home Interior Design</h2>
-           </div>
-    </div>
-    <div class="container-fluid mb-5 d-flex  position-relative justify-content-center class1 img2">
-           <div class="minus  position-absolute w-75 ">
-            <h2 class="text-uppercase text-center">Office Interior Design</h2>
-           </div>
-    </div>
-    <div class="container-fluid mb-5 d-flex  position-relative justify-content-center class1 img3">
-           <div class="minus  position-absolute w-75 ">
-            <h2 class="text-uppercase text-center">Apartment Design</h2>
-           </div>
-    </div>
-    <div class="container-fluid mb-5 pe-0 ps-0 position-relative   combine">
-         <div class="row ms-0 me-0 justify-content-between">
-            <div class="col-12 col-md-5 col-lg-6 d-flex justify-content-center img4">
-                <div class="minus  position-absolute ">
-                    <h2 class="text-uppercase text-center">Office Interior Design</h2>
-                   </div>
-            </div>
-            <div class="col-12 col-md-5 col-lg-6 d-flex position-relative justify-content-center img5">
-                <div class="minus  position-absolute ">
-                    <h2 class="text-uppercase text-center">Dining Table</h2>
-                   </div>
-            </div>
-         </div>
-    </div>
-    <div class="container-fluid mb-5 d-flex  position-relative justify-content-center class1 img6">
-        <div class="minus  position-absolute w-75 ">
-         <h2 class="text-uppercase text-center">Apartment  Design</h2>
+      </div>
+      <div class="col-12 col-md-6 col-lg pt-5">
+        <div>
+          <img src="Images/illustrations/img_3.jpg" alt="img">
         </div>
- </div>
-    </div>
-    <div class="mt5 text-center position-relative view">
-        <h2>VIEW ALL PROJECTS</h2>
-    </div>
-</section>
- <section class="container-fluid position-relative footer">
-   <section class=" container">
-    <div class="row">
-    <div class="col-12 col-md col-lg ps-0 pe-0 pt-5 insta">
-        <h3 class="mb-5 text-light mt-5">Instagram</h3>
-        <div class="design d-flex flex-wrap ">
-            <div><img src="Images/illustrations/work-1.jpg" alt="img"></div>
-            <div><img src="Images/illustrations/work-2.jpg" alt="img"></div>
-            <div><img src="Images/illustrations/work-3.jpg" alt="img"></div>
-            <div><img src="Images/illustrations/work-4.jpg" alt="img"></div>
-            <div><img src="Images/illustrations/work-5.jpg" alt="img"></div>
-            <div><img src="Images/illustrations/work-6.jpg" alt="img"></div>
-        </div>
-    </div>
-    <div class="col-12 col-md col-lg pt-5  ps-0 pe-0 links">
-        <h3 class="mb-5 text-light mt-5">Links</h3>
-        <ul class="ps-0 pe-0">
-            <li class="mb-3 "><a href="#" class="text-secondary">Home</a></li>
-            <li class="mb-3 "><a href="#" class="text-secondary">Projects</a></li>
-            <li class="mb-3 "><a href="#" class="text-secondary">Blog</a></li>
-            <li class="mb-3 "><a href="#" class="text-secondary">Services</a></li>
-            <li class="mb-3 "><a href="#" class="text-secondary">Contact</a></li>
-        </ul>
-    </div>
-    <div class="col-12 col-md col-lg pt-5  ps-0 pe-0 arch">
-        <h3 class="text-light mb-5 mt-5">Archieves</h3>
-      <div class="row ps-0 pe-0">
-        <div class="col-6 col-md  ps-0 pe-0 col-lg">
-            <ul class="ps-0 pe-0">
-               <li class="text-light mb-3">June 2019</li>
-                <li class="text-light mb-3">July 2018</li>
-                <li class="text-light mb-3">Feb 2023</li>
-                <li class="text-light mb-3">April 2022</li>
-                <li class="text-light mb-3">May 2021</li>
-               </ul>
-        </div>
-        <div class="col-6 col-md col-lg text-end ps-0 pe-0 archieves">
-            <ul> 
-               <li class="mb-3"><a href="#">(20)</a></li>
-               <li class="mb-3"><a href="#">(20)</a></li>
-               <li class="mb-3"><a href="#">(22)</a></li>
-               <li class="mb-3"><a href="#">(23)</a></li>
-               <li class="mb-3"><a href="#">(22)</a></li>
-               </ul>
+        <div class="bg-light ps-4 pb-3">
+          <p class="pt-4 fs-5 text-secondary fw-lighter  mb-0">FEBRUARY 26, 2018</p>
+          <a href="#">
+            <h3 class="headfont lh-base places">45 Best PLaces To <br /> UnWind</h3>
+          </a>
+          <p class="fs-5 text-secondary fw-light lh-lg pb-3">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
       </div>
     </div>
-    <div class="col-12 col-md col-lg query pt-5  ps-0 pe-0   ques">
-        <h3 class="text-light mb-5 mt-5">Have A Question?</h3>
-       <p class="text-secondary ps-3"> <i class="fa-solid fa-location-dot text-light"></i>  Demo@ demo d ece0ecmdvdif</p>
-       <p class="ps-3"> <i class="fa-solid fa-phone"></i>  +495039592040</p>
-        <p class="ps-3"> <i class="fa-solid fa-envelope"></i>  Demo@gmail.com</p>
+  </section>
+  <section class="mt-5 pt-5 mb-5">
+    <h2 class="headfont display-2 text-center mt-5">Happy Customers</h2>
+    <div class="row container mx-auto mt-5 testmonial">
+      <div class="col-12 col-md-4 pt-5">
+        <div style="width: 70px;"> <img src="Images/illustrations/person_1.jpg" alt="img" class="rounded-circle"></div>
+        <p class="fs-5 fw-light pt-3 fst-italic">Far far away, behind the word mountains, far from the countries Vokalia
+          and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+          Semantics, a large language ocean. </p>
+        <span class="fs-5 fw-light pt-3 text-secondary">_____ Clare Gupta</span>
+      </div>
+      <div class="col-12 col-md-4 pt-5">
+        <div style="width: 70px;"> <img src="Images/illustrations/person_2.jpg" alt="img" class="rounded-circle"></div>
+        <p class="fs-5 fw-light pt-3 fst-italic">Far far away, behind the word mountains, far from the countries Vokalia
+          and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+          Semantics, a large language ocean. </p>
+        <span class="fs-5 fw-light pt-3 text-secondary">_____ Rogie Slater</span>
+      </div>
+      <div class="col-12 col-md-4 pt-5">
+        <div style="width: 70px;"> <img src="Images/illustrations/person_3.jpg" alt="img" class="rounded-circle"></div>
+        <p class="fs-5 fw-light pt-3 fst-italic">Far far away, behind the word mountains, far from the countries Vokalia
+          and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+          Semantics, a large language ocean. </p>
+        <span class="fs-5 fw-light pt-3 text-secondary">_____ John Doe</span>
+      </div>
     </div>
-</div>
-<div class="end  mt-5 pb-5">
-    <p class="text-secondary">Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart" style="color: #7d7d7d;"></i>  by Colorlib
-    </p>
-</div>
-   </section>
- </section>
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </section>
+  <section class="mt-5 pt-5 pb-5">
+    <div class="container text-center exp pt-5">
+      <h3 class="h1 headfont font32 pt-5">Top Destinations</h3>
+      <p class="text-secondary lh-lg">Far far away, behind the word mountains, far from the countries Vokalia and
+        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large language ocean.</p>
+    </div>
+    <div class="row container mx-auto column-gap-lg-3 mb-5 pb-5 destiny">
+      <div class="col-12 col-md-6 col-lg mt-5">
+        <div>
+          <a href="#"><img src="Images/illustrations/img_1.jpg" alt="img" class="shadow"></a>
+        </div>
+        <a href="#">
+          <h4 class="headfont h5 mt-4 services">Food & Wines</h4>
+        </a>
+        <div class="d-flex justify-content-between">
+          <menu>
+            <i class="fa-solid fa-star fa-rotate-by " style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by fw-light" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+          </menu>
+          <span class="fs-5 text-secondary fst-italic fw-light">3242 Reviews</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg mt-5">
+        <div>
+          <a href="#"><img src="Images/illustrations/img_2.jpg" alt="img" class="shadow"></a>
+        </div>
+        <a href="#">
+          <h4 class="headfont h5 mt-4 services">Resort & Spa</h4>
+        </a>
+        <div class="d-flex justify-content-between">
+          <menu>
+            <i class="fa-solid fa-star fa-rotate-by " style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by fw-light" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+          </menu>
+          <span class="fs-5 text-secondary fst-italic fw-light">3242 Reviews</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg mt-5">
+        <div>
+          <a href="#"><img src="Images/illustrations/img_3.jpg" alt="img" class="shadow"></a>
+        </div>
+        <a href="#">
+          <h4 class="headfont h5 mt-4 services">Hotel Rooms</h4>
+        </a>
+        <div class="d-flex justify-content-between">
+          <menu>
+            <i class="fa-solid fa-star fa-rotate-by " style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by fw-light" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+          </menu>
+          <span class="fs-5 text-secondary fst-italic fw-light">3242 Reviews</span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg mt-5">
+        <div>
+          <a href="#"><img src="Images/illustrations/img_5.jpg" alt="img" class="shadow"></a>
+        </div>
+        <a href="#">
+          <h4 class="headfont h5 mt-4 services">Mountain Climbing</h4>
+        </a>
+        <div class="d-flex justify-content-between">
+          <menu>
+            <i class="fa-solid fa-star fa-rotate-by " style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+            <i class="fa-solid fa-star fa-rotate-by fw-light" style="color: #65c0ba; --fa-rotate-angle: 650deg;"></i>
+          </menu>
+          <span class="fs-5 text-secondary fst-italic fw-light">3242 Reviews</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid footer mt-5 pt-5 pb-5">
+    <section class="row container mx-auto mt-5 pt-5 pb-5">
+      <div class="col-12 col-md-3 pt-5">
+        <ul class="text-light ps-0">
+          <li class="headfont fs-5">Quick Links</li>
+          <a href="#" class="links">
+            <li class="pt-2  font18">About Us</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">Terms & Conditions</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2 font18">Privacy Policy</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">Help</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">Rooms</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 pt-5">
+        <ul class="text-light ps-0">
+          <li class="headfont fs-5">Support</li>
+          <a href="#" class="links">
+            <li class="pt-2 font18">Our Locations</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">The Hosts</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2 font18">About</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">Contact</li>
+          </a>
+          <a href="#" class="links">
+            <li class="pt-2  font18">Restaurent</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 text-light pt-5">
+        <h4 class="headfont h5">Contact Info</h4>
+        <p class="pt-2 text-secondary font18"><Span class="fst-italic text-light fs-5 fw-light">Address : <br /></Span>
+          98 West 21th Street, Suite 721 New York NY 10016</p>
+        <p class="pt-2 text-secondary font18"><Span class="fst-italic text-light fs-5 fw-light">Phone : <br /></Span>
+          (+1) 435 3533</p>
+        <p class="pt-2 text-secondary font18"><Span class="fst-italic text-light fs-5 fw-light">Email : <br /></Span>
+          info@yourdomain.com</p>
+      </div>
+      <div class="col-12 col-md-3 text-light pt-5">
+        <h4 class="headfont h5">Subscribe</h4>
+        <p class="pt-2 text-secondary font18">Sign up for our newsletter</p>
+        <div class="mb-3 pt-3">
+          <input type="email" placeholder="Your Email....." class="fst-italic w-75">
+          <span><i class="fa-regular fa-paper-plane" style="color: #ffffff;"></i></span>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <section class="container mx-auto text-light text-center border-top border-secondary-subtle border-1 pt-5">
+      <h4 class="h5 text-secondary">Copyright © 2024 All rights reserved | This template is made with <span><i
+            class="fa-solid fa-heart"></i></span> by <a href="#" class="h5 colorlib-a">Colorlib</a></h4>
+      <ul class=" d-flex column-gap-3 justify-content-center mt-4 social">
+        <i class="fa-brands fa-facebook fs-5"></i>
+        <i class="fa-brands fa-instagram fs-5"></i>
+        <i class="fa-brands fa-twitter fs-5"></i>
+        <i class="fa-brands fa-linkedin-in fs-5"></i>
+        <i class="fa-brands fa-youtube fs-5"></i>
+      </ul>
+    </section>
+  </section>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
